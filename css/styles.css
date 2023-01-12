@@ -81,3 +81,7 @@ aside {
     align-self:start;
   }
   /* pata bque las propieades self funcionen hay que darselas a los hijos*/
+/*clase de git*/
+.git_class{
+    background: purple;
+}
