@@ -1,0 +1,5 @@
+COMANDOS:
+GIT INIT este sirve para empezar a trabajar con git.se escribe solo la primera ves!
+
+GIT STATUS  me indica siemore el estado ene l que esta mi repositorio
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="">Informacion</a></li>
+            <li><a href="">Galeria</a></li>
+            <li><a href="">Premios</a></li>
+            <li><a href="contacto.html">Redes</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Formularios:</h1>
+    <!--enlaces absolutos-->
+    <!--colocando target "blank" se nos abre otra pestaña si nos queda la paguina anterior abierta-->
+    <a href="https://www.youtube.com/" target="_blank"> youtube</a>
+
+    <form>
+        <!--texto-->
+     <div>
+        <label for="texto">Nombre y Apellido</label>
+        <input type="text" id="texto">
+     </div>        
+<!--ingresar email correo-->
+     <div>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo">
+     </div>
+<!--ingresar telefonos-->
+
+
+        <label for="telefono">telefono</label>
+        <input type="tel" id="telefono">
+
+
+        <br>
+<!--numeros cualquiera-->
+
+        <input type="number">
+
+<!--ingresar contraseña-->
+
+        <input type="password">
+
+<!--area para cualquier mensaje-->
+
+        <textarea id=""  placeholder="enviar forulario"></textarea>
+
+        <!--botones-->
+
+        <input type="submit" value="enviar">
+
+        <!--para limpiar o resetear-->
+
+        <input type="reset" value="limpiar formulario">
+
+        <!--botton para javascript-->
+
+        <input type="button" value="boton para javascript">
+
+        <!--radio OPCION UNICA-->
+
+        <!--le tenemos que poner el mismo "name" iguales pero diferentes "ID"-->
+        <input type="radio" name="opciones" id="menor">
+        <input type="radio" name="opciones" id="mayor">
+
+        <!--CHECKBOX OPCION MULTIPLE-->
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+
+        <!--usra placeholder para identificar el campo a ingresar--> 
+        <input type="text" id="" placeholder="ingresar texto">
+         <!--selecionar opciones si le colocamos disabled no nos deja selecionar esa opcion sirve de guia -->
+        <select id="">
+            <option disabled>selecciona una opcion</option>
+            <option value="">seleciona una opcion</option>
+            <option value="">opcion 2</option>
+            <option value="">opcion 3</option>
+        </select>
+
+    </form>
+  </section>
+</body>
+</html>

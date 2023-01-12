@@ -1,0 +1,83 @@
+
+/*CLASE DE GRID 1*/
+/*grid por areas*/
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "perro header header"
+    "perro productos publicidad"
+    "perro  servicios publicidad"
+    "perro footer footer";
+    grid-template-columns: 18% auto 25%;
+    grid-template-rows: 31% 130px 71fr 385px; 
+    /*darles separacion, espacios entre todas las columnas y todas las filas*/
+    column-gap:6px;
+    row-gap: 10px;
+    height: 100vh;
+}
+.border {
+    border: 1px solid black;
+}
+nav {
+    grid-area: perro;
+    background: red;
+}
+header {
+    grid-area: header;
+    background: gold;
+}
+footer {
+    grid-area: footer;
+    background: blue;
+}
+section#productos {
+    grid-area: productos;
+    background: pink;     
+}
+section#servicios {
+    grid-area: servicios;
+    background: purple;     
+}
+aside {
+    grid-area: publicidad;
+    background: green;
+}
+
+/* GRID ITEMS O GRID HIJOS*/
+.grid-items{
+    display: grid;  
+                    /* 2 columnas */
+    grid-template-columns: 300px 100px; 
+                       /* 2 filas */
+    grid-template-rows: 40px 100px; 
+ }
+ .grid-items {
+    justify-items: stretch; /* start | end | center | stretch */
+    align-items:stretch; /* start | end | center | stretch */
+    display: grid;
+    width: 95%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 100px 100px;
+    grid-row-gap: 10px;
+    
+    /* para que funcione el -align content- necesito fijar una altura(height) */
+
+    height: 100vh;
+    background: red;
+    align-content:start;
+  }
+  .grid-items div {
+    border: solid 1px;
+    font-size: 21px;
+    padding: 5px;
+    background-color: yellow;
+  }
+
+  /*propiedades self para mover individualmente los items*/
+  .self{
+    justify-self:end;
+    align-self:start;
+  }
+  /* pata bque las propieades self funcionen hay que darselas a los hijos*/
