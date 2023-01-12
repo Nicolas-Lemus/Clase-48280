@@ -5,4 +5,10 @@ GIT STATUS  me indica siemore el estado ene l que esta mi repositorio!
 
 GIT Add . con git abb . añadimos todos los archivos que git no encuentra!
 
-GIT COMMIT -M 
+GIT COMMIT -M paara confirmar los cambios del codigo siempre debe llevar un comnetario lo mas desccriptivo povible.
+
+GIT LOG
+
+.GITIGNORE para investigar
+
+GIT BRANCH  
