@@ -85,3 +85,17 @@ aside {
 .git_class{
     background: purple;
 }
+.pseudo1 p:first-of-type{
+    color:rgb(234, 16, 234);
+}
+/*filtro de productos*/
+.card-remeras ,.card-pc {
+    display:
+} 
+
+#remeras:checked ~ .container-card .card-remeras{
+    display: flex;
+}
+#pc:checked ~ .container-card .card-pc{
+    display: flex;
+}
